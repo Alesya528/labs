@@ -1,0 +1,118 @@
+body {
+
+    background-color:aliceblue;
+    user-select: none;
+    }
+    .container {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 70px 30px 70px 30px;
+        background-color: rgb(46, 48, 49);
+        border-radius: 30px;
+        width: 300px;
+        font-family: 'Poppins', sans-serif;
+        height: 600px;
+        left:40%;
+    }
+    .show {
+        display: none;
+    } 
+
+    .btnpole {
+        width: 300px;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .up {
+        width: 100%;
+        position: relative;
+        grid-column: 1/5;
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        padding-left: 55px;
+        font-size: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        border-bottom: 2px solid #E00000;
+        padding-bottom: 3px;
+    }
+    .up div {
+        
+        width: 40%;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        color: aliceblue;
+        font-size: 15px;
+        float: left;
+        
+    }
+    .secondary {
+        font-size: 20px;
+    }
+    .primarily {
+        font-size: 60px;
+    }
+    .item {
+        background-color: rgb(46, 48, 49);
+        color: aliceblue;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        cursor: pointer;
+        font-weight: bold;  
+    }
+        form {
+            max-width: 95%;
+        }
+        input {
+            width: 100%;
+            height: 80px;
+            border: none;
+            font-size: 30px;
+            outline: none;
+            text-align: right;
+            background-color:rgb(46, 48, 49);
+            color: white;
+            
+        }
+        .divide {
+            color: #E00000;
+            
+        }
+        .xren {
+            width: 30px;
+        }
+
+        .multiply {
+            color: #E00000;
+            
+        }
+
+        .plus{
+            color: #E00000;
+            
+        }
+        .input {
+            grid-column: 1/-1;
+            padding: 0;
+
+        }
+        .minus {
+            color: #E00000;
+           
+        } 
+
+        .equils {
+            width: 50px;
+        }
+      
+         
+            
+        
+        
+        
