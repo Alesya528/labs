@@ -76,7 +76,7 @@ function percent(){
   }
     
   else {
-    twoDisplay = (memory/100)*twoDisplay;
+    twoDisplay.value = (+twoDisplay.value/100);
   }
   
 }
